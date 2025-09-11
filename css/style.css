@@ -208,10 +208,6 @@ h6 {
 	--heavy-metal: #141615;
 }
 
-a:visited {
-	color: var(--heavy-metal);
-}
-
 .header {
 	background-color: #fff;
 }
@@ -247,6 +243,7 @@ a:visited {
   display: flex;
   align-items: center;
   justify-content: center;
+  backgrpund: none;
 }
 
 .menu__close-button span,
