@@ -212,6 +212,10 @@ h6 {
 	background-color: #fff;
 }
 
+.header a:visited {
+	color: var(--heavy-metal);
+}
+
 .header__container {
 	display: flex;
 	align-items: center;
@@ -243,7 +247,6 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  backgrpund: none;
 }
 
 .menu__close-button span,
@@ -328,6 +331,10 @@ h6 {
 	display: flex;
 	align-items: center;
 	column-gap: 25px;
+}
+
+.header__buttons button {
+  backgrpund: none;
 }
 
 .header__lang {
